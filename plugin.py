@@ -3,7 +3,7 @@
 # Author: Racquemis
 #
 """
-<plugin key="AwairLocalPlugin" name="Awair Element Air Quality" author="racquemis" version="1.0.0" wikilink="http://www.domoticz.com/wiki/plugins/plugin.html" externallink="https://www.google.com/">
+<plugin key="AwairLocalPlugin" name="Awair Element Air Quality" author="racquemis" version="1.0.0" wikilink="https://github.com/racquemis/domoticz-awair-plugin" externallink="https://github.com/racquemis/domoticz-awair-plugin">
     <description>
         <h2>Awair Element Plugin (Local API)</h2>
         Plugin for Awair Element Air Quality data

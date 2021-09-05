@@ -83,7 +83,7 @@ class BasePlugin:
             if "score" in json_items:
                 Devices[1].Update(nValue=0,sValue=str(json_items["score"]))
             if "temp" in json_items and "humid" in json_items:
-                Devices[2].Update(nValue=0,sValue=str(json_items["temp"])+";"+str(json_items["humid"]))
+                Devices[2].Update(nValue=0,sValue=str(json_items["temp"])+";"+str(json_items["humid"]) + ";0")
             if "co2" in json_items:
                 Devices[3].Update(nValue=json_items["co2"], sValue="")
             if "voc" in json_items:
